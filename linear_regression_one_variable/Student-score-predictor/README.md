@@ -1,18 +1,24 @@
-# Linear Regression From Scratch
+# Student Score Predictor using Linear Regression
 
-This project implements Linear Regression from scratch using Python and NumPy without using machine learning libraries for training.
+This project implements Linear Regression from scratch using Python and NumPy to predict student scores based on the number of study hours.
 
-The project covers:
+The project also includes an implementation using scikit-learn for comparison.
+
+## Problem Statement
+Predict a student's exam score using the number of hours studied.
+
+## Features Implemented
 - Cost Function
 - Gradient Descent
 - Weight and Bias Optimization
 - Regression Line Visualization
 - Cost Convergence Visualization
-
-A second implementation using scikit-learn is also included for comparison.
+- Prediction using trained model
 
 ## Dataset
-Student Scores Dataset
+The dataset contains:
+- Study Hours
+- Student Scores
 
 ## Technologies Used
 - Python
@@ -27,4 +33,4 @@ Student Scores Dataset
 - `student_scores.csv`
 
 ## Results
-The model successfully predicts student scores based on study hours and demonstrates convergence of Gradient Descent over iterations.
+The model successfully learns the relationship between study hours and exam scores and predicts scores for unseen inputs.
